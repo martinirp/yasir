@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+</head>
+<body>                                                         <!--CORPO DA CALCULADORA-->
+    <div class="parteExteriorCalculadora">.
+        <div class="parteInteriorCalculadora">
+            <br>
+            <div class="deepworm">                                   <!--DEEPWORMS-->
+                <div class="jaw">
+                    <img src="Deepworm_Jaws.gif">
+                    <input type="number" id="quantidadeJaw" placeholder="Quantidade">
+                </div>
+                <div class="roots">
+                    <img src="Deepworm_Spike_Roots.gif">
+                    <input type="number" id="quantidadeSpikeRoots" placeholder="Quantidade">
+                </div>
+                <div class="spike">
+                    <img src="Deepworm_Spikes.gif">
+                    <input type="number" id="quantidadeSpike" placeholder="Quantidade">
+                    <br>.
+                </div>
+            </div>
+            <br>
+            <div class="diremaw">                                   <!--DIREMAWS-->
+                <div class="diremawBrainpan">
+                    <img src="Diremaw_Brainpan.gif"> 
+                    <input type="number" id="quantidadebrainpan" placeholder="Quantidade">
+                </div>
+                <div class="diremawLegs">
+                    <img src="Diremaw_Legs.gif"> 
+                    <input type="number" id="quantidadelegs" placeholder="Quantidade">
+                </div>
+                <div class="slime">
+                    <img src="Poisonous_Slime.gif"> 
+                    <input type="number" id="quantidadeslime" placeholder="Quantidade">
+                    <br>.
+                </div>
+            </div>
+            <br>
+            <div class="result">
+                <input type="button" value="Calcular" onclick="button()" >
+            </div>
+            <div class="final" id="final"></div>            
+        </div>
+    </div>    
+</body>
+<script src="calculadora.js">   
+</script>
+</html>
