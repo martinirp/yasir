@@ -1,0 +1,50 @@
+body{
+    background-color: #ccc;
+}
+
+.parteExteriorCalculadora{
+    line-height: 0.4;
+    background-color: black;
+    border-style: solid;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.parteInteriorCalculadora{
+    background-color: #ccc;
+    margin: 0 auto;
+    border-style: solid;
+    width: 580px;
+    height: 580px;
+    margin: auto;
+}
+.deepworm{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-style: solid;
+    width: 210px;    
+}
+.diremaw{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    border-style: solid;
+    width: 210px;     
+}
+.result{
+    text-align: center;
+}
+.botao{
+    text-align: start;
+    
+}
+.botoes{
+    background-color: #fff;
+    border-style: solid;
+}
+.final{
+    text-align: center;
+    font-size: large;
+    padding-top: 30px;
+}
